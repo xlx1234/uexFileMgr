@@ -1322,11 +1322,11 @@ public class EUExFileMgr extends EUExBase {
                 //String  fileCreateTimestamp = date.toLocaleString();
                 long stf = date.getTime();
                 String fileCreateTimestamp = String.valueOf(stf);
-                Log.e("111",fileCreateTimestamp);
+
 
                 File file = new File(fileItem.getAbsolutePath());
                 long fileModTimestamp = file.lastModified();//返回文件最后修改时间，是以个long型毫秒数
-                Log.e("111", String.valueOf(fileModTimestamp));
+
 //                String fileModTimestamp = new SimpleDateFormat("yyyyMMdd hhmmss").format(new Date(time));
 //                Log.e("11",fileModTimestamp);
 
